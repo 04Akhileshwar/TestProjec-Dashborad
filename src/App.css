@@ -1,38 +1,126 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(237, 231, 231);
+}
+.Header{
+  height: 50px;
+  display: flex;
   align-items: center;
+ padding-top: 15px;
+ justify-content: space-between;
+}
+.search{
+  /* width: 15%; */
+  background-color: rgb(201, 204, 204);
+  justify-content: space-between;
+  align-items: center;
+}
+.SideManuAndPageContent{
+  flex:1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.earning{
+  padding-left: 300px;
+  margin-top: 10px;
+}
+.PageContent{
+
+}
+.approutes{
+  display: flex;
+  flex-direction: row;
+}
+.oders{
+  margin-top: 10px;
+  margin-left: 120px;
+}
+.totalsale{
+  margin-top: 10px;
+  margin-left: 120px;
+}
+.balance{
+  margin-top: 10px;
+  margin-left: 120px;
+}
+.card{
+  height: 200px;
+  display: flex;
+  width: 1140px;
+  padding-left: 30px;
+}
+.footer{
+  display: flex;
+  flex:1;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  margin-top: 10px;
+  padding-left: 230px;
 }
-
-.App-link {
-  color: #61dafb;
+.CardHeader{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-left: 10px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.searchHeader{
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 550px;
+}
+.stockhHeader{
+  margin-left: 700px;
+}
+.TextHeader{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-left: 5px;
+  margin-top: 80px;
+}
+.list{
+  top: 0;
+  left: 0;
+  position: absolute;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 100px;
+}
+  .table {
+    width: 1100px;
+    height: 100px; 
   }
-  to {
-    transform: rotate(360deg);
+  .td {
+    text-align: center;
   }
-}
+  .cardBar{
+    padding-left: 300px;
+    margin-top: 20px;
+  }
+  .custom{
+    margin-top: 20px;
+    margin-left: 170px;
+  } 
+  .virtical{
+    height: 200px;
+    width: 600px;
+   
+  }
+  .piechat{
+    height: 220px;
+    width: 250px;
+  }
+  
+    
